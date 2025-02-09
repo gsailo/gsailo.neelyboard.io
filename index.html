@@ -53,11 +53,12 @@
                 text-decoration: none;
             }
 
-            .card-content {
-                padding: 1.4em;
+            .card-content { /*need change here */
+                padding: 0.5em;
                 margin-top: 0;
-                margin-bottom: 0.5em;
+                margin-bottom: 10em;
                 font-weight: normal;
+                background-color: white;
             }
 
             h2 {
@@ -100,8 +101,9 @@
                 font-weight: bolder;
                 color: green;
                 position: absolute;
-                top: 5px;
+                top: -15px;
                 left: 5px;
+                z-index: 10;
             }
 
             @media screen and (min-width: 600px) {
@@ -179,22 +181,24 @@
         <main class="main-area">
             <div class="centered">
                 <section class="cards">
-                    
+                   
                     <article class="card flip-card">
-                        <a href="#">
+                        <a href="#"> 
                             <div class="flip-card-inner">
-                                <div class="pixHolder" class="flip-card-front">
-                                    <img src="Batman.jpg" alt="Batman">
-                                </div>
-                                <div class="card-content">
-                                    <h3>Batman</h3>
-                                    <ul>
-                                        <li>Bruce Wayne</li>
-                                    </ul>
+                                <div class="flip-card-front">
+                                    <div class="pixHolder">
+                                        <img src="Batman.jpg" alt="Batman">
+                                    </div>   
+                                    <div class="card-content">
+                                        <h3>Batman</h3>
+                                        <ul>
+                                            <li>Bruce Wayne</li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>Batman</h1>
-                                    <p>The master of the shadow.</p>
+                                    <p>The knight of the shadow.</p>
                                 </div>
                             </div>
                         </a>
@@ -203,14 +207,16 @@
                     <article class="card flip-card" status="important">
                         <a href="#">
                             <div class="flip-card-inner">
-                                <div class="pixHolder" class="flip-card-front">
-                                    <img src="Superman.jpg" alt="Superman">
-                                </div>
-                                <div class="card-content">
-                                    <h3>Superman</h3>
-                                    <ul>
-                                        <li>Kryptonian</li>
-                                    </ul>
+                                <div class="flip-card-front">
+                                    <div class="pixHolder">
+                                        <img src="Superman.jpg" alt="Superman">
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Superman</h3>
+                                        <ul>
+                                            <li>Kryptonian</li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>Superman</h1>
@@ -223,14 +229,16 @@
                     <article class="card flip-card" status="done">
                         <a href="#">
                             <div class="flip-card-inner">
-                                <div class="pixHolder" class="flip-card-front">
-                                    <img src="Wonder Woman.jpg" alt="Wonder Woman">
-                                </div>
-                                <div class="card-content">
-                                    <h3>Wonder Woman</h3>
-                                    <ul>
-                                        <li>Diana Prince</li>
-                                    </ul>
+                                <div class="flip-card-front">
+                                    <div class="pixHolder">
+                                        <img src="Wonder Woman.jpg" alt="Wonder Woman">
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Wonder Woman</h3>
+                                        <ul>
+                                            <li>Diana Prince</li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>Wonder Woman</h1>
@@ -243,14 +251,16 @@
                     <article class="card flip-card">
                         <a href="#">
                             <div class="flip-card-inner">
-                                <div class="pixHolder" class="flip-card-front">
-                                    <img src="Flash.jpg" alt="Flash">
-                                </div>
-                                <div class="card-content">
-                                    <h3>Flash</h3>
-                                    <ul>
-                                        <li>Barry Allen</li>
-                                    </ul>
+                                <div class="flip-card-front">
+                                    <div class="pixHolder">
+                                        <img src="Flash.jpg" alt="Flash">
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Flash</h3>
+                                        <ul>
+                                            <li>Barry Allen</li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>Flash</h1>
@@ -263,14 +273,16 @@
                     <article class="card flip-card">
                         <a href="#">
                             <div class="flip-card-inner">
-                                <div class="pixHolder" class="flip-card-front">
-                                    <img src="Cyborg.jpg" alt="Cyborg">
-                                </div>
-                                <div class="card-content">
-                                    <h3>Cyborg</h3>
-                                    <ul>
-                                        <li>Vicor Stone</li>
-                                    </ul>
+                                <div class="flip-card-front">
+                                    <div class="pixHolder">
+                                        <img src="Cyborg.jpg" alt="Cyborg">
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Cyborg</h3>
+                                        <ul>
+                                            <li>Vicor Stone</li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>Cyborg</h1>
@@ -283,14 +295,16 @@
                     <article class="card flip-card">
                         <a href="#">
                             <div class="flip-card-inner">
-                                <div class="pixHolder" class="flip-card-front">
-                                    <img src="Green.jpg" alt="Green Lantern">
-                                </div>
-                                <div class="card-content">
-                                    <h3>Green Lantern</h3>
-                                    <ul>
-                                        <li>Alan Scott</li>
-                                    </ul>
+                                <div class="flip-card-front">
+                                    <div class="pixHolder">
+                                        <img src="Green.jpg" alt="Green Lantern">
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Green Lantern</h3>
+                                        <ul>
+                                            <li>Alan Scott</li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>Green Lantern</h1>
@@ -303,14 +317,16 @@
                     <article class="card flip-card">
                         <a href="#">
                             <div class="flip-card-inner">
-                                <div class="pixHolder" class="flip-card-front">
-                                    <img src="Martian.jpg" alt="Martian Manhunter">
-                                </div>
-                                <div class="card-content">
-                                    <h3>Martian</h3>
-                                    <ul>
-                                        <li>Manhunter</li>
-                                    </ul>
+                                <div class="flip-card-front">
+                                    <div class="pixHolder">
+                                        <img src="Martian.jpg" alt="Martian Manhunter">
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Martian</h3>
+                                        <ul>
+                                            <li>Manhunter</li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>Martian Manhunter</h1>
@@ -323,14 +339,16 @@
                     <article class="card flip-card">
                         <a href="#">
                             <div class="flip-card-inner">
-                                <div class="pixHolder" class="flip-card-front">
-                                    <img src="Hawkgirl.jpg" alt="Hawkgirl">
-                                </div>
-                                <div class="card-content">
-                                    <h3>Hawkgirl</h3>
-                                    <ul>
-                                        <li>Egyptian</li>
-                                    </ul>
+                                <div class="flip-card-front">
+                                    <div class="pixHolder">
+                                        <img src="Hawkgirl.jpg" alt="Hawkgirl">
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Hawkgirl</h3>
+                                        <ul>
+                                            <li>Egyptian</li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="flip-card-back">
                                     <h1>Hawkgirl</h1>
