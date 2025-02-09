@@ -104,7 +104,7 @@
                 border: 6px dashed green;
             }
 
-            [status="done"]::before {
+            [status="done"] .flip-card-front::before {
                 content: "\2713";
                 font-size: 10em;
                 font-weight: bolder;
@@ -113,6 +113,10 @@
                 top: -15px;
                 left: 5px;
                 z-index: 10;
+            }
+
+            [status="done"]:hover .flip-card-front::before {
+                display: none;
             }
 
             @media screen and (min-width: 600px) {
